@@ -1,4 +1,9 @@
-img{
-    width: 950px;
+.row {
+    background-color:#5e17eb;
+    color: #ffff;
+}
+
+.banner video{
+    width: 100%;
 }
 

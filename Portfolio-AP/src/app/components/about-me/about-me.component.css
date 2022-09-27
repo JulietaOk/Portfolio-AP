@@ -1,0 +1,43 @@
+.row {
+    background-color:#5e17eb;
+    color: #ffff;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.info-img{
+    width:100%;
+    grid-column: 1/2;
+}
+
+.about-info{
+    padding: 3em;
+    grid-column: 2/2;
+}
+
+.about-info h1{
+    font-size: 2em;
+}
+
+.about-info p{
+    font-size: 1.5em;
+}
+.download-cv {
+    padding: 10px 20px;
+    background-color: #ff66c4;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(238, 152, 195, 0.5);
+}
+
+.download-cv:hover {
+   background-color: #ffff; 
+   box-shadow: none;
+}
